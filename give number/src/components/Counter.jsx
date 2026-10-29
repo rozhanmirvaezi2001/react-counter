@@ -29,6 +29,9 @@ export default function Counter() {
 
   return (
     <div className="counter">
+
+       <p className="counter-number">{state.number}</p>
+       
       <div className="counter-top">
         <input
           className="counter-input"
@@ -70,7 +73,7 @@ export default function Counter() {
         </button>
       </div>
 
-      <p className="counter-number">{state.number}</p>
+     
     </div>
   );
 }
